@@ -1,6 +1,6 @@
 # World Model Primer
 
-A complete, minimal and tested PyTorch implementation of a world-model agent, with a companion chapter that explains every line of it.
+A hands-on introduction to world models: a complete, minimal and tested PyTorch implementation of a world-model agent, with a companion chapter that explains every line of it.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776ab)](https://www.python.org/)
 [![PyTorch 2.x](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)](https://pytorch.org/)
@@ -84,7 +84,7 @@ With weak world models, the controllers reach their highest dream scores (5.65 i
 ## Repository structure
 
 ```text
-world-models-from-scratch/
+world-model-primer/
 ├── README.md
 ├── LICENSE
 ├── world_model.py           # the complete system: environment, V, M, C, planner, evaluation
@@ -112,8 +112,8 @@ Tested with Python 3.13, PyTorch 2.14.1, NumPy 2.5.3, cma 4.5.0 and matplotlib 3
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/world-models-from-scratch.git
-cd world-models-from-scratch
+git clone https://github.com/<your-username>/world-model-primer.git
+cd world-model-primer
 python -m venv .venv
 source .venv/bin/activate          # on Windows: .venv\Scripts\activate
 pip install torch numpy cma matplotlib
