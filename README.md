@@ -1,4 +1,4 @@
-# World Models from Scratch
+# World Model Primer
 
 A complete, minimal and tested PyTorch implementation of a world-model agent, with a companion chapter that explains every line of it.
 
